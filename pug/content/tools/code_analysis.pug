@@ -1,5 +1,5 @@
-include ../mixins/tool.pug
-table.table#tools-cryptography
+include ../../mixins/tool.pug
+table.table#tools-code-analysis
     thead
         tr
             th Name
@@ -10,5 +10,5 @@ table.table#tools-cryptography
             th Price
             th Online
     tbody
-        each tool in tools.cryptography.tools
+        each tool in tools.code_analysis.tools
             +tool(tool)

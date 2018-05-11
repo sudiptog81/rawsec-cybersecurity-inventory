@@ -1,5 +1,5 @@
-include ../mixins/ctf_platform.pug
-table.table#ctf-platforms-jeopardy
+include ../../mixins/tool.pug
+table.table#tools-collaboration-report
     thead
         tr
             th Name
@@ -8,6 +8,7 @@ table.table#ctf-platforms-jeopardy
             th Description
             th Programming language
             th Price
+            th Online
     tbody
-        each platform in ctf_platforms.jeopardy.ctf_platforms
-            +ctf_platform(platform)
+        each tool in tools.collaboration_report.tools
+            +tool(tool)

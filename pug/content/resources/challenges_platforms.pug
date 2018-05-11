@@ -1,5 +1,5 @@
-include ../mixins/resources_generic.pug
-table.table#resources-trainings-and-courses
+include ../../mixins/resources_generic.pug
+table.table#resources-challenges-platforms
     thead
         tr
             th Name
@@ -7,5 +7,5 @@ table.table#resources-trainings-and-courses
             th Description
             th Price
     tbody
-        each resource in resources.trainings_and_courses.resources
+        each resource in resources.challenges_platforms.resources
             +resources_generic(resource)

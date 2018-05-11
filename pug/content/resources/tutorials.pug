@@ -1,5 +1,5 @@
-include ../mixins/resources_generic.pug
-table.table#resources-knowledge-and-tools
+include ../../mixins/resources_generic.pug
+table.table#resources-tutorials
     thead
         tr
             th Name
@@ -7,5 +7,5 @@ table.table#resources-knowledge-and-tools
             th Description
             th Price
     tbody
-        each resource in resources.knowledge_and_tools.resources
+        each resource in resources.tutorials.resources
             +resources_generic(resource)

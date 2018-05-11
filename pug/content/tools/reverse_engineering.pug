@@ -1,5 +1,5 @@
-include ../mixins/tool.pug
-table.table#tools-code-analysis
+include ../../mixins/tool.pug
+table.table#tools-reverse-engineering
     thead
         tr
             th Name
@@ -10,5 +10,5 @@ table.table#tools-code-analysis
             th Price
             th Online
     tbody
-        each tool in tools.code_analysis.tools
+        each tool in tools.reverse_engineering.tools
             +tool(tool)

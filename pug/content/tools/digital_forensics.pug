@@ -1,5 +1,5 @@
-include ../mixins/tool.pug
-table.table#tools-networking
+include ../../mixins/tool.pug
+table.table#tools-digital-forensics
     thead
         tr
             th Name
@@ -10,5 +10,5 @@ table.table#tools-networking
             th Price
             th Online
     tbody
-        each tool in tools.networking.tools
+        each tool in tools.digital_forensics.tools
             +tool(tool)
