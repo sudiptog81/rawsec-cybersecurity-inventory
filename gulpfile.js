@@ -23,12 +23,16 @@ gulp.task('pug:data', ['clean'], function() {
                     filenameStrip = filename.replace(path.extname(filename), '');
                 var primaryKey = parentFolder + '_' + filenameStrip;
 
-                // Set the parentFolder_filenameStrip as the primary key for our JSON data
+                // Keep the tree structure
                 var data = {};
-                data[primaryKey] = json;
+                if(typeof data[parentFolder] === 'undefined') {
+                    data[parentFolder] = {};
+                }
+                data[parentFolder][filenameStrip] = json;
 
                 return data;
-            }
+            },
+            jsonSpace: '  '
         }))
         .pipe(gulp.dest('temp/'));
 });
