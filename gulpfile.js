@@ -38,7 +38,7 @@ gulp.task('pug:data', ['clean'], function() {
 });
 
 gulp.task('pug:src', ['clean', 'pug:data'], function() {
-    return gulp.src('pug/**/*.pug')
+    return gulp.src('pug/*.pug')
         .pipe(data(function() {
             return JSON.parse(fs.readFileSync('temp/data.json'))
         }))
