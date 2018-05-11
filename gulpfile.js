@@ -19,9 +19,11 @@ gulp.task('pug:data', ['clean'], function() {
             edit: (json, file) => {
                 // Extract the filename and strip the extension
                 var filename = path.basename(file.path),
-                    primaryKey = filename.replace(path.extname(filename), '');
+                    parentFolder = path.basename(path.dirname(file.path)),
+                    filenameStrip = filename.replace(path.extname(filename), '');
+                var primaryKey = parentFolder + '_' + filenameStrip;
 
-                // Set the filename as the primary key for our JSON data
+                // Set the parentFolder_filenameStrip as the primary key for our JSON data
                 var data = {};
                 data[primaryKey] = json;
 
