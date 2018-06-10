@@ -1,6 +1,14 @@
 {
   "tools": [
     {
+      "name": "Amass",
+      "source": "https://github.com/caffix/amass",
+      "description": "Tool for subdomain enumeration",
+      "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "Belati",
       "source": "https://github.com/aancw/Belati",
       "description": "OSINT tool, collect data and document actively or passively",
@@ -31,6 +39,14 @@
       "source": "https://github.com/Nhoya/gOSINT",
       "description": "OSINT framework; find mails, dumps, retrieve Telegram history and info about hosts",
       "language": "Go",
+      "price": "Free",
+      "online": "False"
+    },
+    {
+      "name": "leakScraper",
+      "source": "https://github.com/Acceis/leakScraper",
+      "description": "Set of tools to process and visualize huge text files containing credentials",
+      "language": "Python",
       "price": "Free",
       "online": "False"
     },
