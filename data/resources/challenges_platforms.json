@@ -21,6 +21,16 @@
       "price": "Free"
     },
     {
+      "name": "Begin.re",
+      "links": [
+        {
+          "website": "https://www.begin.re/"
+        }
+      ],
+      "description": "Binary reverse guided challenges for beginners",
+      "price": "Free"
+    },
+    {
       "name": "CanYouHack.It",
       "links": [
         {
