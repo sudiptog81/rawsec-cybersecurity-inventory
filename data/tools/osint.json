@@ -34,6 +34,14 @@
       "online": "False"
     },
     {
+      "name": "Facebook_OSINT_Dump",
+      "source": "https://github.com/TheCyberViking/Facebook_OSINT_Dump",
+      "description": "OSINT tool, facebook profile dumper, windows and chrome only",
+      "language": "Shell",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "FOCA",
       "website": "https://www.elevenpaths.com/labstools/foca/index.html",
       "source": "https://github.com/ElevenPaths/FOCA",
