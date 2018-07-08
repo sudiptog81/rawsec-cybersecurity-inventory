@@ -26,6 +26,14 @@
       "online": "False"
     },
     {
+      "name": "EagleEye",
+      "source": "https://github.com/ThoughtfulDev/EagleEye",
+      "description": "OSINT tool, image recognition on instagram, facebook and twitter",
+      "language": "Python",
+      "price": "Free",
+      "online": "False"
+    },
+    {
       "name": "FOCA",
       "website": "https://www.elevenpaths.com/labstools/foca/index.html",
       "source": "https://github.com/ElevenPaths/FOCA",
