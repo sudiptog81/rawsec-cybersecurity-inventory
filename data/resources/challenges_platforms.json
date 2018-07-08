@@ -524,6 +524,16 @@
       "price": "Free"
     },
     {
+      "name": "ZSIS CTF",
+      "links": [
+        {
+          "website": "https://ctf.zsis.hr/"
+        }
+      ],
+      "description": "Challenge platform",
+      "price": "Free"
+    },
+    {
       "name": "µContest",
       "links": [
         {
