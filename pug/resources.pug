@@ -10,6 +10,11 @@ block content
                 h2.title.is-2#title-resources Resources
             
                 p Note: Paid resources may exist in a free limited version or a demo version
+
+                h3.title.is-3#title-resources-challenges-platforms Challenges platforms
+                article
+                    include content/resources/challenges_platforms.pug
+                    script(src='js/tablefilter/resources/challenges_platforms.js')
             
                 h3.title.is-3#title-resources-cve CVE
                 article
@@ -27,11 +32,6 @@ block content
                 article
                     include content/resources/knowledge_and_tools.pug
                     script(src='js/tablefilter/resources/knowledge_and_tools.js')
-                
-                h3.title.is-3#title-resources-challenges-platforms Challenges platforms
-                article
-                    include content/resources/challenges_platforms.pug
-                    script(src='js/tablefilter/resources/challenges_platforms.js')
                 
                 h3.title.is-3#title-resources-non-english Non english
                 article
